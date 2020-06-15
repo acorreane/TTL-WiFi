@@ -3,8 +3,8 @@
 #include <ESP8266HTTPUpdateServer.h>
 
 #define MAX_SRV_CLIENTS 2
-const char* ssid = "Matrix";
-const char* password = "99hej110abc";
+const char* ssid = "your ssid";
+const char* password = "your password";
 byte ptt_pin = 0;
 
 WiFiServer server(502);
