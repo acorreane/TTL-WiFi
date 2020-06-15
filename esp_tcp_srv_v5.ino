@@ -8,8 +8,8 @@
 
 char CHIP_ID[7] = ""; const char* mqtt_clientid  = itoa(ESP.getChipId(), CHIP_ID, DEC);
 
-const byte pin_config = 0;
-const byte led_wifi   = 1;
+const byte pin_config = 0; // !!! use internal pull-up or use external resistor
+const byte led_wifi   = 1; 
 
 #define MAX_SRV_CLIENTS 2
 
